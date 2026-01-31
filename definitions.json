@@ -79,11 +79,11 @@
       "Malus' Law": "The intensity of a beam of plane-polarised light after passing through a rotatable polariser is directly proportional to the square of the cosine of the angle through which the polariser is rotated from the position that gives maximum intensity."
     },
     "13": {
-      "Principle of Superposition": "When two or more waves of the same type, meet at a point in space, the resultant displacement of the waves at any point is the vector sum of the displacementns due to each wave active independently at that point.",
+      "Principle of Superposition": "When two or more waves of the same type, meet at a point in space, the resultant displacement of the waves at any point is the vector sum of the displacements due to each wave acting independently at that point.",
       "Standing (stationary) waves": "Waves whose waveform does not advance and there is no translation of energy. The amplitude of the waves varies according to position from zero (or a minimum) at the nodes to a maximum at the antinodes.",
-      "4 conditions of waves to superpose for stationary wave": "1. two progressive waves of same frequency and same speed\n2. travelling in opposite directions towards one another\n3. having similar or identical amplitudes\n4. being unpolarised or polarised along the same axes",
-      "Diffraction": "the bending or spreading out of waves when they travel through a small opening or when they pass round a small obstacle.",
-      "Coherent sources": "Sources are coherent it they have a constant phase difference with respect to time.",
+      "4 conditions of waves to superpose for a stationary wave": "1. two progressive waves of same frequency and same speed\n2. travelling in opposite directions towards one another\n3. having similar or identical amplitudes\n4. being unpolarised or polarised along the same axes",
+      "Diffraction": "The bending or spreading out of waves when they travel through a small opening or when they pass round a small obstacle.",
+      "Coherent sources": "Sources are coherent if they have a constant phase difference with respect to time.",
       "Interference": "Superposing of two or more waves to produce regions of maxima and minima in space, according to the principle of superposition; OR an effect that occurs when two or more waves overlop to produce a new wave pattern, e.g. a change in amplitute."
     }
 
