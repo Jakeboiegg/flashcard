@@ -85,6 +85,14 @@
       "Diffraction": "The bending or spreading out of waves when they travel through a small opening or when they pass round a small obstacle.",
       "Coherent sources": "Sources are coherent if they have a constant phase difference with respect to time.",
       "Interference": "Superposing of two or more waves to produce regions of maxima and minima in space, according to the principle of superposition; OR an effect that occurs when two or more waves overlop to produce a new wave pattern, e.g. a change in amplitute."
+    },
+    "14": {
+      "Coulomb's Law": "The magnitude of the electric force between two point charges is directly proportional to the product of the charges and inversely proportional to the square  of their separation.",
+      "Electric field":"A region in space where a charge experiences an electric force.",
+      "Electric field strength":"The electric force per unit charge on a positive charge placed at that point. (where q is the amount of charge of a small stationary test charge)",
+      "Electric potential energy (at a point)":"The work done by an external force against the electric force in bringing the point charge from infinity to that point without any net change in KE of the point charge.",
+      "Electric potential (at a point)":"The work done per unit charge by an external force against the electric force in bringing a small positive test charge from infinity to that point without any net change in KE of the point charge.",
+      "Capitance":"The ratio of the magnitude of the charge Q stored on either conductor to the potential difference V between the conductors."
     }
 
   },
