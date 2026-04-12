@@ -101,12 +101,14 @@
       "Potential difference between two points":"The amount of electrical energy converted to other forms of energy per unit charge moved between these two points. Equal to the difference in electric potential between two points.",
       "Electromotive force (e.m.f) of a source":"The amount of energy transferred from non-electrical forms of energy to electrical energy per unit charge as the charge passes through a complete circuit. It is NOT a force.",
       "Alternating current (a.c.) source":"It creates an electrical current that varies in magnitude and direction periodically with time, as opposed to direct current source where the direction of the current stays constant.",
-      "Root-mean-square value of ac":"It is the value of a steady dc/voltage that would produce the same average power in a given resistor."
+      "Root-mean-square value of ac":"It is the value of a steady dc/voltage that would produce the same average power in a given resistor.",
+      "Volt":"The potential difference between two points of a conducting wire when one coulomb of charge loses one joule of energy between those two points."
     },
     "16":{
       "Ohm's law":"States that the current flowing in a conductor is directly proportional to the potential difference across it under constant physical conditions.",
       "Resistance":"The ratio of the potential difference across the conductor to the current flowing through it.",
-      "Resistivity":"The proportionality constant between the dimensions of a specimen of a material and its resistance that is constant at constant temperature."
+      "Resistivity":"The proportionality constant between the dimensions of a specimen of a material and its resistance that is constant at constant temperature.",
+      "One ohm":"The resistance of a material in which one volt of potential difference across it is required for one ampere of current to flow in it."
     } 
     
   },
