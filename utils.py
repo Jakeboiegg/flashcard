@@ -30,6 +30,8 @@ def verify_chapter(queried_subject, queried_chapter, full_data):
 
 
 def get_testables_from_chapter(subject_data, chapter):
+    # internal function used in get_tastables()
+
     testable = []
     for word, definition in subject_data[chapter].items():
         testable.append([word, definition])
@@ -37,6 +39,8 @@ def get_testables_from_chapter(subject_data, chapter):
 
 
 def get_testables(queried_subject, queried_chapter, full_data):
+    # queried_chapter can be a list of chapters
+
     testable = []
     subject_data = full_data[queried_subject]
     if queried_chapter == "all":
