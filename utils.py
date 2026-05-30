@@ -48,7 +48,6 @@ def get_testables(queried_subject, queried_chapter, full_data):
     else:  # specified chapter
         testable = get_testables_from_chapter(subject_data, queried_chapter)
 
-    random.shuffle(testable)
     return testable
 
 
@@ -72,6 +71,7 @@ def test(filename, subject, chapter="all"):
         return None
 
     testable = get_testables(queried_subject, queried_chapter, full_data)
+    random.shuffle(testable)
     
     total_number_testable = len(testable)
 
