@@ -1,7 +1,7 @@
 from utils import test
 
 def main():
-    filename = "definitions.json"
+    filename = "static/definitions.json"
 
     test(filename, "physics", "14")
     # test(filename, "physics", ["11", "12"])
