@@ -1,12 +1,12 @@
-from utils import test
+import utils
 
 def main():
     filename = "static/definitions.json"
 
-    test(filename, "physics", "14")
-    # test(filename, "physics", ["11", "12"])
-    # test(filename, "physics", "all")
+    testables = utils.get_testables(filename, "physics", "14")
+    print(testables)
 
+    # utils.test(filename, "physics", "14")
 
 if __name__ == "__main__":
     main()

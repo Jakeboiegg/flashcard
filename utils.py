@@ -38,8 +38,11 @@ def get_testables_from_chapter(subject_data, chapter):
     return testable
 
 
-def get_testables(queried_subject, queried_chapter, full_data):
+def get_testables(filename, queried_subject, queried_chapter):
     # queried_chapter can be a list of chapters
+
+    with open(filename, "r") as f:
+        full_data = json.load(f)
 
     testable = []
     subject_data = full_data[queried_subject]
@@ -74,7 +77,7 @@ def test(filename, subject, chapter="all"):
     if not valid:
         return None
 
-    testable = get_testables(queried_subject, queried_chapter, full_data)
+    testable = get_testables(filename, queried_subject, queried_chapter)
     random.shuffle(testable)
     
     total_number_testable = len(testable)
