@@ -1,12 +1,17 @@
-import utils
+from utils import Flashcard
+from flask import Flask, render_template
 
-def main():
-    filename = "static/definitions.json"
+filename = "static/definitions.json"
+flashcard = Flashcard(filename)
 
-    testables = utils.get_testables(filename, "physics", "14")
-    print(testables)
+testables = flashcard.get_testables("physics", "14")
 
-    # utils.test(filename, "physics", "14")
+# init flask app
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+    return render_template("index.html")
 
 if __name__ == "__main__":
-    main()
+    app.run(debug=True)
