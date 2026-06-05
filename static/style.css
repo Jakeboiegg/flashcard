@@ -1,3 +1,47 @@
 body {
-  background-color: beige;
+  margin: 0px;
+
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+}
+
+div.topic-selector {
+  background-color: lightblue;
+  width: 200px;
+  padding: 10px;
+}
+
+div.main {
+  background-color: pink;
+  width: 100%;
+  padding: 10px;
+
+  display: flex;
+flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.card {
+  background-color: magenta;
+  width: 350px;
+  height: 220px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+div.bottom-bar {
+  background-color: lightgreen;
+  width: 500px;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
