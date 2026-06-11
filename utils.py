@@ -5,6 +5,11 @@ class Flashcard:
         with open(filename, "r") as f:
             self.full_data = json.load(f)
 
+    def get_chapters(self, subject):
+        chapter_data = self.full_data[subject]
+        return [chapter for chapter in chapter_data]
+
+
     def get_testables_from_chapter(self, subject_data, chapter):
         # internal function used in get_tastables()
 
