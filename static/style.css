@@ -12,6 +12,8 @@ div.topic-selector {
   background-color: lightblue;
   width: 200px;
   padding: 10px;
+
+  font-size: 8px;
 }
 
 div.main {

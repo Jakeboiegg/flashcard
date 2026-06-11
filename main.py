@@ -4,8 +4,6 @@ from flask import Flask, render_template, request
 filename = "static/definitions.json"
 flashcard = Flashcard(filename)
 
-testables = flashcard.get_testables("physics", "14")
-
 # init flask app
 app = Flask(__name__)
 
@@ -15,13 +13,7 @@ def index():
         for item in request.form:
             print(item)
 
-    chapters = [
-            "topic 1",
-            "topic 2",
-            "topic 3",
-            "topic 4",
-            "topic 5",
-            ]
+    chapters = flashcard.get_chapters("physics") # hard coded 'physics for now'
     return render_template("index.html", chapters=chapters)
 
 if __name__ == "__main__":
