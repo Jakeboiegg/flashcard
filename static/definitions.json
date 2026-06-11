@@ -1,12 +1,12 @@
 {
   "physics": {
-    "1": {
+    "01 Quantities and Measurement": {
       "Systematic Error": "An error is systematic if repeating the measurement under the same conditions yields readings with error of the same magnitude and sign. Readings with systematic error change in a predictable manner depending on the conditions.",
       "Random Error": "An error is random if repeating the measurement under the same conditions yields readings with error of different magnitude and sign. Readings with random errors scatter about a mean value. The errors have an equal chance of being negative or positive.",
       "Accuracy": "Accuracy of a measurement is the closeness of a reading on an instrument to the true value of the quantity being measured.",
       "Precision": "Precision describes the level of uncertainty in an instrument's scale."
     },
-    "2": {
+    "02 Forces and Moments": {
       "Hooke's law": "Hooke's law states that the force is directly proportional to the extension (or compression) in a material if its limit of proportionality is not exceeded.",
       "Moment (of a force)": "The moment of a force is the turning effect of the force and is equal to the product of the force and the perpendicular distance of the line of action of the force from the pivot O.",
       "Torque (of a couple)": "Torque of a couple is defined as the product of one of the forces F and the perpendicular distance d between the lines of action of the forces.",
@@ -14,7 +14,7 @@
       "Rotational Equilibrium": "Resultant torque about any point must be zero.",
       "Principle of Moments": "The principle of momentns states that if a body is in equilibrium, the sum of all the clockwise moments about any axis must be equal to the sum of all the anticlockwise moments about the same axis."
     },
-    "3": {
+    "03 Motion and Forces": {
       "Distance": "The total length of path travelled.",
       "Displacement": "The distance of a point from some reference point in a specified direction.",
       "Velocity": "Rate of change of displacement.",
@@ -26,7 +26,7 @@
       "Newton's second law": "The rate of change of momentum of a body is (directly) proportional to the resultant force acting on the body and is in the same direction as the resultant force.",
       "Newton's third law": "The force exerted by one body on a second body is equal in magnitude and opposite in direction to the force simultaneously exerted by the second body on the first body."
     },
-    "4": {
+    "04 Energy and Fields": {
       "Energy": "The ability to do work.",
       "Conservation of Energy": "Energy can neither by created nor destroyed in any process. It can be transformed from one form to another, and transferred from one body to another. The total energy in an isolated system remains constant.",
       "Work Done": "The product of a force F and the displacement s in the direction of the force.",
@@ -35,14 +35,14 @@
       "Power": "Rate of energy transfer.",
       "Average Power (delivered by a working force)": "The total work done divided by the total time interval."
     },
-    "5": {
+    "05 Projectile Motion": {
       "Weight": "The force acting on a mass due to a gravititional field"
     },
-    "6": {
+    "06 Collisions": {
       "Impulse": "The product of an average force F acting on an object and the time [triangle t] for which the force acts. (Also equal to the change in momentum)",
       "Conservation of Linear Momentum": "Total momentum of a system remains constant provided NO external resultant force acts on the system."
     },
-    "78": {
+    "07 08 Thermal Physics": {
       "Ideal gas": "A hypothetical gas that obeys the equation of state of an ideal gas perfectly at all pressures, temperatures and volumes.",
       "Mole": "The amount of substance that contains as many elementary particles as there are atoms in 0.012kg of carbon-12.",
       "Avogadro's constant": "Number of atoms in 0.012kg of carbon-12.",
@@ -53,32 +53,32 @@
       "Specific heat capacity of a body": "The amount of thermal energy required to raise the temperature of unit mass of the substance by one degree.",
       "Specific latent heat of a body": "Thermal energy required to change phase of unit mass of a substance, without a change in temperature."
     },
-    "9": {
+    "09 Circular Motion": {
         "Angular Displacement": "The angle through which an object turns with respect to the centre of the circular path.",
         "Radian": "The angle subtended at the centre of a circle by an arc of length equals to the radius of the circle.",
         "Angular velocity": "Rate of change of angular displacement"
     },
-    "10": {
+    "10 Gravitational Field": {
         "Newton's Law of Gravitation": "The force of attraction between any two point masses is directly proportional to the product of their masses and inversely proportional to the square of their separation.",
         "Gravitional Field": "A region in space where a mass experiences a gravitational force acting on it",
         "Gravitational Field Strength (at a point)": "The gravitational force per unit mass acting on a small mass placed at that point.",
         "Gravitational potential energy (of a mass)": "Work done by an external agent in bringing the mass from infinity to that point (without any change in kinetic energy)",
         "Gravitational potential (at a point)": "The work done per unit mass by an external agent in bringing a small test mass from infinity to that point. (without any change in kinetic energy)"
     },
-    "11": {
+    "11 Oscillations": {
       "Simple harmonic motion": "The motion of a body whose acceleration is directly proportional to its displacement from a fixed point (equilibrium position) and is always directed towards that fixed point.",
       "Damped oscillations": "Oscillations in which the amplitude diminishes with time as a result of dissipative forces that reduce the total energy of the oscillations.",
       "Forced oscillations": "A system is in forced oscillation when it is forced to oscillate by a periodic external force (at a frequency other than the natural frequency)",
       "Resonance": "A phenomenon that occurs when the frequency at which an object is being made to vibrate (the forced frequency of vibration) is equal to its natural frequency of vibration. The amplitude of vibration is maximum at this frequency."
     },
-    "12": {
+    "12 Wave Motion": {
       "Progressive wave": "A wave in which energy is carried from one point to anther by means of vibrations or oscillations within the wave. Particles within the wave are not transported along the wave.",
       "Phase": "An angle which gives a measure of the fraction of a cycle that has been completed by an oscillating particle or by a wave.",
       "Intensity (of a wave)": "The wave energy incident per unit time per unit area normal to the wave (or power incident per unit area). It is also proportional to the square of the amplitude of the wave.",
       "Polarisation (of a wave)": "Confinement of oscillations in only one plane. The direction of oscillations is perpendicular to the direction of energy transfer.",
       "Malus' Law": "The intensity of a beam of plane-polarised light after passing through a rotatable polariser is directly proportional to the square of the cosine of the angle through which the polariser is rotated from the position that gives maximum intensity."
     },
-    "13": {
+    "13 Superposition": {
       "Principle of Superposition": "When two or more waves of the same type, meet at a point in space, the resultant displacement of the waves at any point is the vector sum of the displacements due to each wave acting independently at that point.",
       "Standing (stationary) waves": "Waves whose waveform does not advance and there is no translation of energy. The amplitude of the waves varies according to position from zero (or a minimum) at the nodes to a maximum at the antinodes.",
       "4 conditions of waves to superpose for a stationary wave": "1. two progressive waves of same frequency and same speed\n2. travelling in opposite directions towards one another\n3. having similar or identical amplitudes\n4. being unpolarised or polarised along the same axes",
@@ -86,7 +86,7 @@
       "Coherent sources": "Sources are coherent if they have a constant phase difference with respect to time.",
       "Interference": "Superposing of two or more waves to produce regions of maxima and minima in space, according to the principle of superposition; OR an effect that occurs when two or more waves overlop to produce a new wave pattern, e.g. a change in amplitute."
     },
-    "14": {
+    "14 Electric Fields": {
       "Coulomb's Law": "The magnitude of the electric force between two point charges is directly proportional to the product of the charges and inversely proportional to the square of their separation.",
       "Electric field":"A region in space where a charge experiences an electric force.",
       "Electric field strength":"The electric force per unit charge on a positive charge placed at that point.",
@@ -94,7 +94,7 @@
       "Electric potential (at a point)":"The work done per unit charge by an external force (against the electric force) in bringing a small positive test charge from infinity to that point (without any net change in KE of the point charge).",
       "Capitance":"The ratio of the magnitude of the charge (Q) stored on either conductor to the potential difference (V) between the conductors."
     },
-    "15": {
+    "15 Currents": {
       "Direction of conventional current":"The direction in which positive charges would move even if there are no mobile positive charges.",
       "Number density":"The number of particles per unit volume.",
       "Drift velocity":"The average velocity at which charge carriers move through a conductor when there is electric curent in the conductor.",
@@ -104,7 +104,7 @@
       "Root-mean-square value of ac":"It is the value of a steady dc/voltage that would produce the same average power in a given resistor.",
       "Volt":"The potential difference between two points of a conducting wire when one coulomb of charge loses one joule of energy between those two points."
     },
-    "16":{
+    "16 Circuits":{
       "Ohm's law":"States that the current flowing in a conductor is directly proportional to the potential difference across it under constant physical conditions.",
       "Resistance":"The ratio of the potential difference across the conductor to the current flowing through it.",
       "Resistivity":"The proportionality constant between the dimensions of a specimen of a material and its resistance that is constant at constant temperature.",
