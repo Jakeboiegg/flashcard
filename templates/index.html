@@ -7,15 +7,14 @@
 <body>
   <div class="topic-selector">
     <h2>topic selector</h2>
-    <p>01 this</p>
-    <p>02 will</p>
-    <p>03 be</p>
-    <p>04 a</p>
-    <p>05 form</p>
-    <p>06 and</p>
-    <p>07 post</p>
-    <p>08 request</p>
-    <p>09 thing</p>
+    <form action="{{url_for('index')}}" method="POST">
+      {% for chapter in chapters %}
+      <input type="checkbox" id="{{chapter}}" name="{{chapter}}">
+      <label for="{{chapter}}">{{chapter}}</label>
+      <br>
+      {% endfor %}
+      <input type="submit" value="submit">
+    </form>
     
   </div>
 
