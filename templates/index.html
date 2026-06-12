@@ -34,5 +34,12 @@
       <p>prev | flip card | next | shuffle | placeholder wghaaa</p>
     </div>
   </div>
+
+  <!-- bring testables into javascript (as a global constant)-->
+  <script>
+    const testables = {{ testables | tojson }}
+  </script>
+
+  <script src="{{url_for('static', filename='index.js')}}"></script>
 </body>
 </html>
