@@ -31,6 +31,7 @@ div.card {
   background-color: magenta;
   width: 350px;
   height: 220px;
+  user-select: none;
 
   display: flex;
   flex-direction: column;
