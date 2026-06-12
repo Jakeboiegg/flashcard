@@ -11,7 +11,7 @@ subject = "physics" # hard coded 'physics' for now
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    testables = {"nothing is selected", "go select a chapter and submit it"}
+    testables = [["nothing is selected", "go select a chapter and submit it"]]
     if request.method == "POST":
         subjects = [subject for subject in request.form]
         testables = flashcard.get_testables(subject, subjects)
