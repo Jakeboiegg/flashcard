@@ -109,8 +109,37 @@
       "Resistance":"The ratio of the potential difference across the conductor to the current flowing through it.",
       "Resistivity":"The proportionality constant between the dimensions of a specimen of a material and its resistance that is constant at constant temperature.",
       "One ohm":"The resistance of a material in which one volt of potential difference across it is required for one ampere of current to flow in it."
-    } 
-    
+    },
+    "17":{
+      "Magnetic field":"A magnetic field is the region of space where a magnetic pole, moving charged particle or current-carrying conductor will experience a magnetic force.",
+      "Magnetic flux density (B)":"The force acting per unit current per unit length on a conductor placed perpendicular to the magnetic field."
+    },
+    "18":{
+      "Magnetic flux (Φ)":"The product of magnetic flux density and the cross-sectional area perpendicular to the direction of the direction of the magnetic flux density.",
+      "Magnetic flux linkage (NΦ)":"The product of the number of turns, N, of the coil and the magnetic flux, Φ, passing through the coil.",
+      "Faraday's law of electromagnetic induction":"States that the e.m.f. induced in a conductor is directly proportional to the rate of change of magnetic flux linkage (or the rate of cutting of magnetic flux).",
+      "Lenz's law":"The direction of the induced e.m.f. is such that it may produce an effect that opposes the change causing it."
+    },
+    "19":{
+      "A photon":"A quantum of electromagnetic energy.",
+      "The photoelectric effect":"The emission of electrons from a metal surface when it is exposed to electromagnetic radiation of sufficiently high frequency.",
+      "Energy of the photon involved in the transition between energy levels":"Obeys energy conservation.",
+      "Emission line spectrum":"A series of distinct coloured lines against a dark background",
+      "Absorption line spectrum":"A series of distinct dark lines against a continuous spectrum."
+    },
+    "20":{
+      "Isotope":"One of two or more atoms with the same atomic number but with different numbers of neutrons.",
+      "Spontaneous decay":"The nucleus decays because it is unstable. It is not triggered or affected by external conditions.",
+      "Random decay":"It is impossible to predict which nucleus will decay at a particular instant or when a particular nucleus with decay. (However, when dealing with a large number of nuclei, it is possible to predict the fraction of the nuclei that will decay per unit time.)",
+      "Background radiation":"The radiation detected by a radiation counter when no radioactive source is nearby.",
+      "Activity (A) of a radioactive isotope":"Defined as the number of nuclear disintegrations per unit time.",
+      "Decay constant (λ) of a sample of a radioactive nuclide":"The probability that a nucleus will decay per unit time.",
+      "Half-life of a radioactive isotope":"The average time taken for its activity to be halved.",
+      "The unified atomic mass unit (u)":"Equivalent to one-twelfth of the mass of a carbon-12 atom.",
+      "Mass defect (Δm)":"The amount by which the mass of an atomic nucleus is less than the sum of the masses of its constituent particles.",
+      "Binding energy (B.E) of a nucleus":"The amount of energy that is required to break a nucleus into its constituent nucleons (i.e. protons and neutrons).",
+      "Binding energy per nucleon":"Defined as the binding energy of a nucleus divided by the number of nucleons in the nucleus."
+    }
   },
   "econs": {
     "6": {
