@@ -42,7 +42,10 @@
     },
     "6": {
       "Impulse": "The product of an average force F acting on an object and the time [triangle t] for which the force acts. (Also equal to the change in momentum)",
-      "Conservation of Linear Momentum": "Total momentum of a system remains constant provided NO external resultant force acts on the system."
+      "Conservation of Linear Momentum": "Total momentum of a system remains constant provided NO external resultant force acts on the system.",
+      "Elastic collision":"An elastic collision between two or more objects is one in which kinetic energy is conserved.",
+      "Inelastic collision":"An inelastic collision is defined as a collision in which kinetic energy is not conserved.",
+      "Perfectly inelastic collision":"The colliding bodies will coalesce with one another and move off with the same velocity."
     },
     "78": {
       "Ideal gas": "A hypothetical gas that obeys the equation of state of an ideal gas perfectly at all pressures, temperatures and volumes.",
