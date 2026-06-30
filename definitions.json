@@ -4,7 +4,9 @@
       "Systematic Error": "An error is systematic if repeating the measurement under the same conditions yields readings with error of the same magnitude and sign. Readings with systematic error change in a predictable manner depending on the conditions.",
       "Random Error": "An error is random if repeating the measurement under the same conditions yields readings with error of different magnitude and sign. Readings with random errors scatter about a mean value. The errors have an equal chance of being negative or positive.",
       "Accuracy": "Accuracy of a measurement is the closeness of a reading on an instrument to the true value of the quantity being measured.",
-      "Precision": "Precision describes the level of uncertainty in an instrument's scale."
+      "Precision": "Precision describes the level of uncertainty in an instrument's scale.",
+      "Scalar": "A physical quantity that only has magnitude.",
+      "Vector":"A physical quantity that has both magnitude and direction."
     },
     "2": {
       "Hooke's law": "Hooke's law states that the force is directly proportional to the extension (or compression) in a material if its limit of proportionality is not exceeded.",
