@@ -12,19 +12,25 @@
       <input type="checkbox" id="{{chapter}}" name="{{chapter}}">
       <label for="{{chapter}}">{{chapter}}</label>
       <br>
+      <div style="height: 8px;"></div>
       {% endfor %}
-      <input type="submit" value="submit">
+      <input type="submit" value="submit" style="margin-top: 20px;">
     </form>
     
   </div>
 
   <div class="main">
     <h1>Flashcard</h1>
-
-    <div class="card" id="card">
-      <p id="card_text">card text</p>
+    <div class="card">
+      <div class="card-inner">
+          <div class="card-front" id="card-front">
+            <p id="front_text">card text</p>
+          </div>
+          <div class="card-back" id="card-back">
+            <p id="back_text">back shots</p>
+          </div>
+      </div>
     </div>
-
     <div style="height: 20px;"></div>
 
     <div class="bottom-bar">

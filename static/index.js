@@ -1,14 +1,13 @@
-console.log(testables)
-
-const card = document.getElementById("card")
-const card_text = document.getElementById("card_text")
+const front_text = document.getElementById("front_text")
+const back_text = document.getElementById("back_text")
 
 const prev_btn = document.getElementById("prev")
 const next_btn = document.getElementById("next")
 const shuffle_btn = document.getElementById("shuffle")
 
 function update_card() {
-  card_text.textContent = testables[index][flipped]
+  front_text.innerText = testables[index][0]
+  back_text.innerText = testables[index][1]
 }
 
 function shuffleArray(array) {
@@ -24,11 +23,7 @@ let index = 0
 let flipped = 0
 update_card()
 
-// flipping the cards
-card.addEventListener("click", () => {
-  flipped == 0 ? flipped = 1 : flipped = 0 
-  update_card()
-})
+console.log(testables)
 
 // changing the word
 // prev
