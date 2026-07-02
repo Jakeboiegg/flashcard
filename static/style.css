@@ -9,27 +9,28 @@ body {
 }
 
 div.topic-selector {
-  background-color: lightblue;
+  background-color: #7EA2AA;
   width: 400px;
   padding: 10px;
 
   font-size: 15px;
+  color: #303633;
 }
 
 div.main {
-  background-color: pink;
+  background-color: #c9ffee; 
   width: 100%;
   padding: 10px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #303633;
 }
 
 div.card {
-  width: 350px;
-  height: 220px;
+  width: 400px;
+  height: 250px;
   user-select: none;
 
   display: flex;
@@ -67,25 +68,71 @@ div.card {
 
 
 .card-front {
-  background: black;
+  background-color: #888DA7;
   border: 1px solid #e5e7eb;
-  color: white;
+  color: #303633;
   text-align: center;
 }
 
 .card-back {
-  background: rgb(66, 42, 73);
-  color: white;
+  background-color: #888DA7;
+  color: #303633;
   transform: rotateY(180deg);
   text-align: center;
 }
 
 div.bottom-bar {
-  background-color: lightgreen;
   width: 500px;
   height: 60px;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
+}
+
+.fuzzy-bubbles-regular {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fuzzy-bubbles-bold {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.card-text {
+  padding: 30px;
+  text-align: center;
+}
+
+.hover-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-underline::after,
+.hover-underline::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #8BE8CB;
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.hover-underline::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.hover-underline:hover::after,
+.hover-underline:hover::before {
+  transform: scaleX(1);
 }
