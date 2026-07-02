@@ -12,7 +12,7 @@
     <h2 class="fuzzy-bubbles-bold">Topic Selector</h2>
     <form action="{{url_for('index')}}" method="POST">
       {% for chapter in chapters %}
-      <input type="checkbox" id="{{chapter}}" name="{{chapter}}">
+      <input type="checkbox" id="{{chapter}}" name="{{chapter}}" class="topic-checkbox">
       <label for="{{chapter}}" class="fuzzy-bubbles-regular hover-underline">{{chapter}}</label>
       <br>
       <div style="height: 8px;"></div>

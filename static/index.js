@@ -21,6 +21,10 @@ function shuffleArray(array) {
 // init 
 let index = 0
 let flipped = 0
+
+if (testables.length === 0) {
+  testables = [["no cards selected to display", "please select and submit topics from the sidebar on the left :D"]]
+}
 update_card()
 
 console.log(testables)
@@ -51,3 +55,11 @@ shuffle_btn.addEventListener("click", ()=> {
   update_card()
 })
 
+// select all
+const select_all_btn = document.getElementById("select_all")
+
+select_all_btn.addEventListener("click", () => {
+  document.querySelectorAll('.topic-checkbox').forEach(element => {
+    element.checked = true;
+  });
+})
