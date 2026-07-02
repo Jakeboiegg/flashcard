@@ -136,3 +136,10 @@ div.bottom-bar {
 .hover-underline:hover::before {
   transform: scaleX(1);
 }
+
+.select-all {
+  user-select: none;
+  width: 67px;
+  height: calc(67px/2);
+  background-image: linear-gradient(0deg, yellow, green)
+}
