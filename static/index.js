@@ -51,3 +51,11 @@ shuffle_btn.addEventListener("click", ()=> {
   update_card()
 })
 
+// select all
+const select_all_btn = document.getElementById("select_all")
+
+select_all_btn.addEventListener("click", () => {
+  document.querySelectorAll('.topic-checkbox').forEach(element => {
+    element.checked = true;
+  });
+})
