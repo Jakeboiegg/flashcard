@@ -81,7 +81,9 @@
       "Phase": "An angle which gives a measure of the fraction of a cycle that has been completed by an oscillating particle or by a wave.",
       "Intensity (of a wave)": "The wave energy incident per unit time per unit area normal to the wave (or power incident per unit area). It is also proportional to the square of the amplitude of the wave.",
       "Polarisation (of a wave)": "Confinement of oscillations in only one plane. The direction of oscillations is perpendicular to the direction of energy transfer.",
-      "Malus' Law": "The intensity of a beam of plane-polarised light after passing through a rotatable polariser is directly proportional to the square of the cosine of the angle through which the polariser is rotated from the position that gives maximum intensity."
+      "Malus' Law": "The intensity of a beam of plane-polarised light after passing through a rotatable polariser is directly proportional to the square of the cosine of the angle through which the polariser is rotated from the position that gives maximum intensity.",
+      "Transverse wave":"Particles oscillate perpendicular to the direction of wave propagation.",
+      "Longitundinal wave":"Particles oscillate parallel to the direction of wave propagation."
     },
     "13": {
       "Principle of Superposition": "When two or more waves of the same type, meet at a point in space, the resultant displacement of the waves at any point is the vector sum of the displacements due to each wave acting independently at that point.",
