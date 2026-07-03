@@ -8,6 +8,8 @@ const shuffle_btn = document.getElementById("shuffle")
 function update_card() {
   front_text.innerText = testables[index][0]
   back_text.innerText = testables[index][1]
+
+  console.log(String(index+1) + "/" + String(testables.length))
 }
 
 function shuffleArray(array) {
@@ -26,8 +28,6 @@ if (testables.length === 0) {
   testables = [["no cards selected to display", "please select and submit topics from the sidebar on the left :D"]]
 }
 update_card()
-
-console.log(testables)
 
 // changing the word
 // prev
@@ -51,7 +51,6 @@ next_btn.addEventListener("click", () => {
 // shuffle
 shuffle_btn.addEventListener("click", ()=> {
   testables = shuffleArray(testables)
-  console.log(testables)
   update_card()
 })
 
