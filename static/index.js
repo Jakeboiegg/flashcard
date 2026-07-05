@@ -56,9 +56,41 @@ shuffle_btn.addEventListener("click", ()=> {
 
 // select all
 const select_all_btn = document.getElementById("select_all")
+let select = true;
+
+function update_select_all_button_face() {
+  const select_all_msg = "select all"
+  const deselect_all_msg = "deselect all"
+  
+  if (select) {
+    select_all_btn.textContent = select_all_msg
+  } else {
+    select_all_btn.textContent = deselect_all_msg
+  }
+}
+
+document.querySelectorAll('.topic-checkbox').forEach(element => {
+  element.addEventListener("change", () => {
+
+    if (select) {
+      select = false
+
+    } else {
+      let no_selected = 0
+      document.querySelectorAll('.topic-checkbox').forEach(element => {
+        if (element.checked === true) {no_selected += 1}
+      });
+      no_selected === 0 ? select = true : select = false
+    }
+
+    update_select_all_button_face()
+  })
+});
 
 select_all_btn.addEventListener("click", () => {
   document.querySelectorAll('.topic-checkbox').forEach(element => {
-    element.checked = true;
+    element.checked = select;
   });
+  select = !select
+  update_select_all_button_face()
 })
