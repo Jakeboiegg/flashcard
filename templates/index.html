@@ -13,7 +13,7 @@
     <form action="{{url_for('index')}}" method="POST">
       {% for chapter in chapters %}
       <input type="checkbox" id="{{chapter}}" name="{{chapter}}" class="topic-checkbox">
-      <label for="{{chapter}}" class="fuzzy-bubbles-regular hover-underline">{{chapter}}</label>
+      <label for="{{chapter}}" class="fuzzy-bubbles-regular hover-underline" style="user-select: none">{{chapter}}</label>
       <br>
       <div style="height: 8px;"></div>
       {% endfor %}
