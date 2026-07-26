@@ -54,7 +54,7 @@
       "Internal energy (U) of a system": "Sum of a random distribution of kinetic and potential energies associated with the molecules of a system",
       "Zeroth law of thermodynamics": "If two systems are both in thermal equilibrium with a third system, the they (all three systems) are also in thermal equilibrium with each other.",
       "First law of thermodynamics": "The increase in internal energy of a closed system is the sum of the heat supplied to the system and the work done on the system. ([triangle U] = Q + W)",
-      "Heat capacity of a body": "The amount of thermal energy required to raise its temprature by one degree.",
+      "Heat capacity of a body": "The amount of thermal energy required to raise its temperature by one degree.",
       "Specific heat capacity of a body": "The amount of thermal energy required to raise the temperature of unit mass of the substance by one degree.",
       "Specific latent heat of a body": "Thermal energy required to change phase of unit mass of a substance, without a change in temperature."
     },
@@ -122,7 +122,7 @@
       "Magnetic flux density (B)":"The force acting per unit current per unit length on a conductor placed perpendicular to the magnetic field."
     },
     "18":{
-      "Magnetic flux (Φ)":"The product of magnetic flux density and the cross-sectional area perpendicular to the direction of the direction of the magnetic flux density.",
+      "Magnetic flux (Φ)":"The product of magnetic flux density and the cross-sectional area perpendicular to the direction of the magnetic flux density.",
       "Magnetic flux linkage (NΦ)":"The product of the number of turns, N, of the coil and the magnetic flux, Φ, passing through the coil.",
       "Faraday's law of electromagnetic induction":"States that the e.m.f. induced in a conductor is directly proportional to the rate of change of magnetic flux linkage (or the rate of cutting of magnetic flux).",
       "Lenz's law":"The direction of the induced e.m.f. is such that it may produce an effect that opposes the change causing it."
