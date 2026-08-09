@@ -5,7 +5,7 @@
       "Random Error": "An error is random if repeating the measurement under the same conditions yields readings with error of different magnitude and sign. Readings with random errors scatter about a mean value. The errors have an equal chance of being negative or positive.",
       "Accuracy": "Accuracy of a measurement is the closeness of a reading on an instrument to the true value of the quantity being measured.",
       "Precision": "Precision describes the level of uncertainty in an instrument's scale.",
-      "Scalor Quantity": "A physical quantity that only has magnitude is a scalar. To specify a scalar, the magnitude and unit have to be stated.",
+      "Scalar Quantity": "A physical quantity that only has magnitude is a scalar. To specify a scalar, the magnitude and unit have to be stated.",
       "Vector Quantity": "A physical quantity that has magnitude and direction is a vector, To specify a vector, the magnitude, unit and direction have to be stated."
     },
     "02 Forces and Moments": {
