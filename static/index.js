@@ -9,7 +9,7 @@ function update_card() {
   front_text.innerText = testables[index][0]
   back_text.innerText = testables[index][1]
 
-  console.log(String(index+1) + "/" + String(testables.length))
+  // console.log(String(index+1) + "/" + String(testables.length))
 }
 
 function shuffleArray(array) {
@@ -31,22 +31,45 @@ update_card()
 
 // changing the word
 // prev
-prev_btn.addEventListener("click", () => {
+
+function prev_card() {
   index -= 1
   if (index < 0) {
     index = testables.length - 1
   }
   update_card()
+}
+
+prev_btn.addEventListener("click", () => {
+  prev_card()
 })
 
+document.addEventListener("keydown", (event) => {
+  if (event.key === "ArrowLeft") {
+    prev_card()
+  }
+});
+
 // next
-next_btn.addEventListener("click", () => {
+
+function next_card() {
   index += 1
   if (index >= testables.length) {
     index = 0
   }
   update_card()
+}
+
+next_btn.addEventListener("click", () => {
+  next_card()
 })
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "ArrowRight") {
+    next_card()
+  }
+});
+
 
 // shuffle
 shuffle_btn.addEventListener("click", ()=> {
