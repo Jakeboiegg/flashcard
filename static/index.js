@@ -5,10 +5,12 @@ const prev_btn = document.getElementById("prev")
 const next_btn = document.getElementById("next")
 const shuffle_btn = document.getElementById("shuffle")
 
+const card_inner = document.getElementById("card_inner")
+
 function update_card() {
   front_text.innerText = testables[index][0]
   back_text.innerText = testables[index][1]
-
+  card_inner.classList.remove("flipped")
   // console.log(String(index+1) + "/" + String(testables.length))
 }
 
@@ -28,7 +30,6 @@ if (testables.length === 0) {
 update_card()
 
 // flip card on spacebar
-const card_inner = document.getElementById("card_inner")
 document.addEventListener("keydown", (event) => {
   if (event.key === " ") {
     event.preventDefault()
