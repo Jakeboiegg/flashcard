@@ -53,6 +53,7 @@ prev_btn.addEventListener("click", () => {
 
 document.addEventListener("keydown", (event) => {
   if (event.key === "ArrowLeft") {
+    event.preventDefault()
     prev_card()
   }
 });
@@ -73,6 +74,7 @@ next_btn.addEventListener("click", () => {
 
 document.addEventListener("keydown", (event) => {
   if (event.key === "ArrowRight") {
+    event.preventDefault()
     next_card()
   }
 });
