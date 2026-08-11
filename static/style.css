@@ -48,6 +48,10 @@ div.card {
   transform-style: preserve-3d;
 }
 
+.card-inner.flipped{
+  transform: rotateY(180deg);
+}
+
 .card:hover .card-inner{
   transform: rotateY(180deg);
 }

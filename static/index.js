@@ -22,12 +22,19 @@ function shuffleArray(array) {
 
 // init 
 let index = 0
-let flipped = 0
-
 if (testables.length === 0) {
   testables = [["no cards selected to display", "please select and submit topics from the sidebar on the left :D"]]
 }
 update_card()
+
+// flip card on spacebar
+const card_inner = document.getElementById("card_inner")
+document.addEventListener("keydown", (event) => {
+  if (event.key === " ") {
+    event.preventDefault()
+    card_inner.classList.toggle("flipped")
+  }
+})
 
 // changing the word
 // prev
