@@ -6,12 +6,15 @@ const next_btn = document.getElementById("next")
 const shuffle_btn = document.getElementById("shuffle")
 
 const card_inner = document.getElementById("card_inner")
+const card_counter = document.getElementById("card_counter")
 
 function update_card() {
   front_text.innerText = testables[index][0]
   back_text.innerText = testables[index][1]
   card_inner.classList.remove("flipped")
-  // console.log(String(index+1) + "/" + String(testables.length))
+
+  let count_string = String(index+1) + "/" + String(testables.length)
+  card_counter.innerText = count_string
 }
 
 function shuffleArray(array) {
