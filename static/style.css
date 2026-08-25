@@ -141,9 +141,19 @@ div.bottom-bar {
   transform: scaleX(1);
 }
 
-.select-all {
+.button {
   user-select: none;
-  width: 67px;
-  height: calc(67px/2);
-  background-image: linear-gradient(0deg, yellow, green)
+  max-width: 80px; 
+  background-color: #9C7A97; 
+  border-radius: 5px; 
+  color: aliceblue; 
+  padding: 5px; 
+  border: 1px rgb(84, 40, 40) solid; 
+  text-align: center; 
+  margin-right: 20px;
+}
+
+.button:hover {
+  background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+  cursor: pointer;
 }
