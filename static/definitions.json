@@ -144,15 +144,15 @@
     }
   },
   "econs": {
-    "6": {
+    "6 scale???": {
       "Internal economies of scale (IEOS)": "Cost savings that accrue directly to a firm when they expand their scale of production, independent of what is happening to other firms.",
       "External economies of scale (EEOS)": "Cost savings that arise from expansion of the entire industry, independent of the firm's scale of production."
     },
-    "7": {
+    "7 costs of production": {
       "Total Fixed Cost": "Cost of fixed factors and does not vary with outupt level. Thus, it is incurred even if a firm ceases production.",
       "Total Variable Cost": "Cost of variable factors, and it varies with output level. Thus, it is zero when production ceases."
     },
-    "8": {
+    "8 market structure": {
       "Barrier to Entry": "Impediment the prevents new firms from completing on an equal basis with incumbents."
     }
   }

@@ -8,15 +8,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
   </head>
 <body>
-  <div class="topic-selector">
-    <h2 class="fuzzy-bubbles-bold">Topic Selector</h2>
+  <!-- supposed to subject selector  -->
+  <div class="topic-selector">    
     <form action="{{url_for('index')}}" method="POST">
-      {% for chapter in chapters %}
-      <input type="checkbox" id="{{chapter}}" name="{{chapter}}" class="topic-checkbox">
-      <label for="{{chapter}}" class="fuzzy-bubbles-regular hover-underline" style="user-select: none">{{chapter}}</label>
+
+      <select name="subject" id="subject" onchange="this.form.submit()">
+        {% for subject in all_subjects %}
+          <option value="{{subject}}">{{subject}}</option>
+        {% endfor %}
+      </select>
+
+      <!-- forbidden br train mwhahahahaha -->
       <br>
-      <div style="height: 8px;"></div>
+      <br>
+
+      {% for chapter in chapters %}
+        <input type="checkbox" id="{{chapter}}" name="{{chapter}}" class="topic-checkbox">
+        <label for="{{chapter}}" class="fuzzy-bubbles-regular hover-underline" style="user-select: none">{{chapter}}</label>
+        <br>
+        <div style="height: 8px;"></div>
       {% endfor %}
+
       <div class="fuzzy-bubbles-regular" id="select_all" class="select-all" style="margin-top: 20px; max-width: 56.25px; background-color: #9C7A97; border-radius: 5px; color: aliceblue;">select all</div>
       <input class="fuzzy-bubbles-regular" type="submit" value="submit" style="margin-top: 20px; background-color: #9C7A97; border-radius: 5px; color: aliceblue;">
     </form>

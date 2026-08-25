@@ -10,6 +10,10 @@ class Flashcard:
         return [chapter for chapter in chapter_data]
 
 
+    def get_all_subjects(self):
+        return list(self.full_data.keys())
+
+
     def get_testables_from_chapter(self, subject_data, chapter):
         # internal function used in get_tastables()
 
