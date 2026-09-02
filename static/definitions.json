@@ -38,7 +38,7 @@
       "Average Power (delivered by a working force)": "The total work done divided by the total time interval."
     },
     "05 Projectile Motion": {
-      "Weight": "The force acting on a mass due to a gravititional field"
+      "Weight": "The force acting on a mass due to a gravitational field"
     },
     "06 Collisions": {
       "Impulse": "The product of an average force F acting on an object and the time [triangle t] for which the force acts. (Also equal to the change in momentum)",
@@ -62,7 +62,7 @@
     },
     "10 Gravitational Field": {
         "Newton's Law of Gravitation": "The force of attraction between any two point masses is directly proportional to the product of their masses and inversely proportional to the square of their separation.",
-        "Gravitional Field": "A region in space where a mass experiences a gravitational force acting on it",
+        "Gravitational Field": "A region in space where a mass experiences a gravitational force acting on it",
         "Gravitational Field Strength (at a point)": "The gravitational force per unit mass acting on a small mass placed at that point.",
         "Gravitational potential energy (of a mass)": "Work done by an external agent in bringing the mass from infinity to that point (without any change in kinetic energy)",
         "Gravitational potential (at a point)": "The work done per unit mass by an external agent in bringing a small test mass from infinity to that point. (without any change in kinetic energy)"
@@ -144,7 +144,7 @@
     }
   },
   "econs": {
-    "6 scale???": {
+    "6 economies of scale": {
       "Internal economies of scale (IEOS)": "Cost savings that accrue directly to a firm when they expand their scale of production, independent of what is happening to other firms.",
       "External economies of scale (EEOS)": "Cost savings that arise from expansion of the entire industry, independent of the firm's scale of production."
     },
