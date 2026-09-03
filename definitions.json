@@ -83,7 +83,7 @@
       "Polarisation (of a wave)": "Confinement of oscillations in only one plane. The direction of oscillations is perpendicular to the direction of energy transfer.",
       "Malus' Law": "The intensity of a beam of plane-polarised light after passing through a rotatable polariser is directly proportional to the square of the cosine of the angle through which the polariser is rotated from the position that gives maximum intensity.",
       "Transverse wave":"Particles oscillate perpendicular to the direction of wave propagation.",
-      "Longitundinal wave":"Particles oscillate parallel to the direction of wave propagation."
+      "Longitudinal wave":"Particles oscillate parallel to the direction of wave propagation."
     },
     "13": {
       "Principle of Superposition": "When two or more waves of the same type, meet at a point in space, the resultant displacement of the waves at any point is the vector sum of the displacements due to each wave acting independently at that point.",
@@ -104,7 +104,7 @@
     "15": {
       "Direction of conventional current":"The direction in which positive charges would move even if there are no mobile positive charges.",
       "Number density":"The number of particles per unit volume.",
-      "Drift velocity":"The average velocity at which charge carriers move through a conductor when there is electric curent in the conductor.",
+      "Drift velocity":"The average velocity at which charge carriers move through a conductor when there is electric current in the conductor.",
       "Potential difference between two points":"The amount of electrical energy converted to other forms of energy per unit charge moved between these two points. Equal to the difference in electric potential between two points.",
       "Electromotive force (e.m.f) of a source":"The amount of energy transferred from non-electrical forms of energy to electrical energy per unit charge as the charge passes through a complete circuit. It is NOT a force.",
       "Alternating current (a.c.) source":"It creates an electrical current that varies in magnitude and direction periodically with time, as opposed to direct current source where the direction of the current stays constant.",
