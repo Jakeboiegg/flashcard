@@ -149,24 +149,24 @@
     }
   },
   "microecons": {
-    "1": {
+    "01 Central Economic Problem": {
       "Opportunity cost": "Opportunity cost is defined as the benefit of the next best alternative forgone."
     },
-    "2": {
+    "02 The Market Economy": {
       "Consumer surplus": "Consumer surplus is the difference between price that consumers are willing and able to pay and the price they actually pay for a unit of a good / service. It measures the utility / satisfaction from consumption which the consumer receives and does not pay for. (area under eqm price)",
       "Producer surplus": "Producer surplus is the difference between price that producers are willing and able to accept and the price actually received for that good. (area above eqm price)"
     },
-    "3":{
+    "03 Elasticity Concepts":{
       "Price Elasticity of Demand (PED)": "Price Elasticity of Demand (PED) measures the degree of responsiveness of quantity demanded of a good to a change in its price, ceteris paribus. Always takes on a negative sign.",
       "Income Elasticity of Demand (YED)": "Income Elasticity of Demand (YED) measures the degree of responsiveness of DD for a good to a change in consumer’s income, c.p.",
       "Cross-Elasticity of Demand (XED)": "Cross-elasticity of Demand (XED) measures the degree of responsiveness of DD for one good to a change in the price of another good, c.p.",
       "Price Elasticity of Supply (PES)": "Price Elasticity of Supply (PES) measures the degree of responsiveness of quantity supplied of a good to a change in its price, c.p. Sign always positive. "
     },
-    "4":{
+    "04 Inequity":{
       "Price ceiling": "Price ceiling is defined as the highest permissible price which the producer can legally charge. ",
       "Price floor": "Price floor is defined as the lowest permissible price which the producer can legally charge."
     },
-    "5":{
+    "05 Market Failure":{
       "Productive efficiency":"PE is achieved when firms in an economy are producing the maximum output with a given amount of inputs / producing a given output with the least cost combination of inputs.",
       "Allocative efficiency": "AE is achieved when the current combination of goods and services produced and consumed allows society to attain the greatest level of satisfaction.",
       "Positive externalities": "Positive externalities are benefits of production or consumption on persons other than the consumers and the producers themselves. (third parties) The third parties do not make payment to enjoy the benefit.",
@@ -176,15 +176,15 @@
       "Adverse selection": "Occurs when the more informed party self-selects in a way that adversely affects the uninformed party, a form of opportunistic behaviour that takes place before the transaction.",
       "Moral hazard": "Exists when one party to the contract has more information than the other party. Once the transaction is made, the more informed party engages in risk-taking behaviour, as they do not bear the consequences of their actions since the costs are borne by the other party. "
     },
-    "6": {
+    "06 Costs of Production": {
       "Internal economies of scale (IEOS)": "Cost savings that accrue directly to a firm when they expand their scale of production, independent of what is happening to other firms.",
       "External economies of scale (EEOS)": "Cost savings that arise from expansion of the entire industry, independent of the firm's scale of production."
     },
-    "7": {
+    "07 Firms and Decisions": {
       "Total Fixed Cost": "Cost of fixed factors and does not vary with outupt level. Thus, it is incurred even if a firm ceases production.",
       "Total Variable Cost": "Cost of variable factors, and it varies with output level. Thus, it is zero when production ceases."
     },
-    "8": {
+    "08 Market Structures": {
       "Barrier to Entry": "Impediment the prevents new firms from completing on an equal basis with incumbents."
     }
   },
