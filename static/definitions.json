@@ -171,7 +171,10 @@
       "Allocative efficiency": "AE is achieved when the current combination of goods and services produced and consumed allows society to attain the greatest level of satisfaction.",
       "Positive externalities": "Positive externalities are benefits of production or consumption on persons other than the consumers and the producers themselves. (third parties) The third parties do not make payment to enjoy the benefit.",
       "Negative externalities": "Negative externalities are costs of production/consumption on persons other than consumers/producers themselves. Third parties are not compensated for the external costs.",
-      
+      "Incorrect information": "Economic agents may be misinformed about the actual (true) benefit of a good.",
+      "Incomplete information": "Economic agents may lack information about the actual (true) benefit of a good.",
+      "Adverse selection": "Occurs when the more informed party self-selects in a way that adversely affects the uninformed party, a form of opportunistic behaviour that takes place before the transaction.",
+      "Moral hazard": "Exists when one party to the contract has more information than the other party. Once the transaction is made, the more informed party engages in risk-taking behaviour, as they do not bear the consequences of their actions since the costs are borne by the other party. "
     },
     "6": {
       "Internal economies of scale (IEOS)": "Cost savings that accrue directly to a firm when they expand their scale of production, independent of what is happening to other firms.",
