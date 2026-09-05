@@ -95,18 +95,6 @@ div.bottom-bar {
   border-radius: 10px;
 }
 
-.fuzzy-bubbles-regular {
-  font-family: "Fuzzy Bubbles", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.fuzzy-bubbles-bold {
-  font-family: "Fuzzy Bubbles", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
 .card-text {
   padding: 30px;
   text-align: center;
@@ -141,7 +129,7 @@ div.bottom-bar {
   transform: scaleX(1);
 }
 
-.button {
+/* .button {
   user-select: none;
   max-width: 80px; 
   background-color: #9C7A97; 
@@ -151,9 +139,116 @@ div.bottom-bar {
   border: 1px rgb(84, 40, 40) solid; 
   text-align: center; 
   margin-right: 20px;
-}
+} */
 
-.button:hover {
+/* .button:hover {
   background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
   cursor: pointer;
+} */
+
+@property --bg-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rebeccapurple;
+}
+
+@property --mix-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: white;
+}
+
+.button {
+  --mix-color: #9C7A97;
+  --bg-color: color-mix(in oklab, transparent, var(--mix-color) 60%);
+  appearance: none;
+  display: inline-block;
+  font: "Fuzzy Bubbles";
+  padding-inline: 1.5rem;
+  padding-block: .875rem;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(255,255,255,0);
+  background: var(--bg-color);
+  backdrop-filter: blur(6px);
+  color: white;
+  border: none;
+  border: none;
+  border-radius: 2rem;
+  corner-shape: superellipse(1.1);
+  box-shadow: -1px 0px 0px rgba(0,0,0,0.15), 1px 0px 0px rgba(0,0,0,0.15), 0px -1px 0px rgba(0,0,0,0.065), 0px 1px 0px rgba(0,0,0,0.065), inset 0px 2px 2px -2px rgba(255,255,255,0.5), inset 0px -2px 2px -2px rgba(255,255,255,0.7);
+
+  transition: --bg-color .2s ease-out, scale .2s ease-out;
+
+  &:hover {
+    --bg-color: var(--mix-color);
+  }
+
+  &:active {
+    scale: 1.1;
+  }
+
+  &.round {
+    corner-shape: round;
+    padding-inline: 1rem;
+    width: 3.125rem;
+  }
+}
+
+:root {
+  --checkbox-border-color: #786991;
+  --checkbox-checked-color: #654761;
+  --checkbox-hover-color: #baaece;
+  --checkbox-disabled-bg-color: #daedf2;
+}
+
+input[type="checkbox"] {
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  margin: 0 6px 0 0;
+  padding: 0;
+  border: 0px solid var(--checkbox-border-color);
+  border-radius: 2px;
+  appearance: none;
+  background-color: var(--checkbox-disabled-bg-color);
+  outline: none;
+}
+
+input[type="checkbox"]:checked {
+  background-size: cover;
+  padding: 2px;
+}
+
+input[type="checkbox"]:not(:disabled):checked {
+  border-color: var(--checkbox-checked-color);
+  background-image: url('./svg/checkbox-checked-svgrepo-com.svg');
+}
+
+input[type="checkbox"]:disabled {
+  background-color: var(--checkbox-disabled-bg-color);
+}
+
+input[type="checkbox"]:disabled:checked {
+  background-image: url('./svg/checkbox-checked-svgrepo-com.svg');
+}
+
+@media (hover: hover) {
+  input[type="checkbox"]:not(:disabled):hover {
+    outline: 4px solid var(--checkbox-hover-color);
+    transform: scale(1.1);
+  }
+}
+
+.fuzzy-bubbles-regular {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fuzzy-bubbles-bold {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
