@@ -9,7 +9,7 @@ NOT ALL DEFINITIONS ARE IN MAY HAVE MISSED A FEW (sorry)
 
 ## usage
 
-1. edit main.py
-2. run main.py
+1. run main.py
+2. open http://127.0.0.1:5000 in browser
 3. enjoy :>
 
