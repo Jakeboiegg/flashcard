@@ -162,6 +162,17 @@
       "Cross-Elasticity of Demand (XED)": "Cross-elasticity of Demand (XED) measures the degree of responsiveness of DD for one good to a change in the price of another good, c.p.",
       "Price Elasticity of Supply (PES)": "Price Elasticity of Supply (PES) measures the degree of responsiveness of quantity supplied of a good to a change in its price, c.p. Sign always positive. "
     },
+    "4":{
+      "Price ceiling": "Price ceiling is defined as the highest permissible price which the producer can legally charge. ",
+      "Price floor": "Price floor is defined as the lowest permissible price which the producer can legally charge."
+    },
+    "5":{
+      "Productive efficiency":"PE is achieved when firms in an economy are producing the maximum output with a given amount of inputs / producing a given output with the least cost combination of inputs.",
+      "Allocative efficiency": "AE is achieved when the current combination of goods and services produced and consumed allows society to attain the greatest level of satisfaction.",
+      "Positive externalities": "Positive externalities are benefits of production or consumption on persons other than the consumers and the producers themselves. (third parties) The third parties do not make payment to enjoy the benefit.",
+      "Negative externalities": "Negative externalities are costs of production/consumption on persons other than consumers/producers themselves. Third parties are not compensated for the external costs.",
+      
+    },
     "6": {
       "Internal economies of scale (IEOS)": "Cost savings that accrue directly to a firm when they expand their scale of production, independent of what is happening to other firms.",
       "External economies of scale (EEOS)": "Cost savings that arise from expansion of the entire industry, independent of the firm's scale of production."
