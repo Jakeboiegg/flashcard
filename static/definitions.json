@@ -148,7 +148,7 @@
       "Binding energy per nucleon":"Defined as the binding energy of a nucleus divided by the number of nucleons in the nucleus."
     }
   },
-  "econs": {
+  "microecons": {
     "1": {
       "Opportunity cost": "Opportunity cost is defined as the benefit of the next best alternative forgone."
     },
@@ -173,5 +173,8 @@
     "8": {
       "Barrier to Entry": "Impediment the prevents new firms from completing on an equal basis with incumbents."
     }
+  },
+  "macroecons": {
+
   }
 }
