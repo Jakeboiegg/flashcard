@@ -189,6 +189,11 @@
     }
   },
   "macroecons": {
-
+    "02 National Income Accounting": {
+      "Nominal Gross Domestic Product (GDP)": "Sum of the market value of all final goods an services produced within a country's geographical boundary during a given period of time.",
+      "Real Gross Domestic Product (GDP)": "Norminal GDP, adjusted for inflation (relative to base year prices) to reflect changes in real output.",
+      "Gross National Income (GNI)": "GDP plus factor incomes earned by citizens of the country overseas minus factor incomes earned by non-citzens in the domestic economy.",
+      "Purchasing Power Parity (PPP) rate": "The amount of foreign currencies needed to buy the same basket of goods and services in the 2 countries."
+    }
   }
 }
